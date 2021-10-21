@@ -1,0 +1,13 @@
+body{
+    margin: 20px;
+}
+
+#newTodoInput{
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+#addTodoBtn{
+    font-size: 0.9rem;
+    padding: 2px;
+}
