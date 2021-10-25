@@ -26,8 +26,18 @@ function addtodo(){
     // css
     del.style.marginLeft = "10px";
 
+    // event listener on del 
+    ol.addEventListener("click",(e)=>{
+        if(e.target.innerText === "Delete")
+        {
+            e.target.parentNode.remove();
+        }
+    })
+
+    // -----------------------
     input.value = "";
 }
+
 
 function olEventListener(e){
     if(e.target.innerText === "Delete")
