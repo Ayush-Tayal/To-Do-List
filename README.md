@@ -1,3 +1,3 @@
 # To-Do-List
 
-https://admiring-pasteur-51b7ca.netlify.app/
+https://ayush-tayal.github.io/To-Do-List/
